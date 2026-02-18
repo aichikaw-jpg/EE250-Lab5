@@ -48,7 +48,7 @@ def get_wifi_signal_strength() -> int:
 def main():
     # Choose at least 5 locations to sample the signal strength at
     # These can be rooms in your house, hallways, different floors, outside, etc. (as long as you can get a WiFi signal)
-    locations = ['insideVHE', 'outsideVHE', 'nearElevator', 'outinfrontofVHE', 'upstairs']
+    locations = ['insideVHE', 'acrosshall', 'Elevator', 'neilarmstrong', 'fountain']
     samples_per_location = 10 # number of samples to take per location
     time_between_samples = 1 # time between samples (in seconds)
 
@@ -107,7 +107,7 @@ def main():
     # NOTE: use the error_y parameter of px.bar to plot the error bars (1 standard deviation)
     #   documentation: https://plotly.com/python-api-reference/generated/plotly.express.bar.html
     fig = px.bar(
-        df, x = 'Location', y = 'Signal Strength', error_y = "signal_strength_std"
+        df, x = 'location', y = 'signal_strength_mean', error_y = "signal_strength_std"
     )
     # Question 8: Why is it important to plot the error bars? What do they tell us?
 

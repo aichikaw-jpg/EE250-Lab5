@@ -31,5 +31,5 @@ Answer for Question 8:
 It is important to plot the error bars so that we know how much error there may be in the data. It allows us to visualize how uncertain we may have to be about a data table. 
 
 Answer for Question 9:
-
+The plot showed that there wasn't a huge deviation even if I walked pretty far from the room. (I was connected to the ee250 wifi). I noticed that the weakest signal occured when I was at the stairs near the elevator. However, the signal was stronger when I went outside towards the armstrong statue and near the OHE fountain. Even though the distances were different, they had the same signal. I think the reason why could be that there are more walls that get in the way for the location at the stairs. However, for the fountain and armstrong statue, they have the same amount of walls blocking the signal. 
 ...
