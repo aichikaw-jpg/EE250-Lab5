@@ -32,22 +32,4 @@ It is important to plot the error bars so that we know how much error there may 
 
 Answer for Question 9:
 The plot showed that there wasn't a huge deviation even if I walked pretty far from the room. (I was connected to the ee250 wifi). I noticed that the weakest signal occured when I was at the stairs near the elevator. However, the signal was stronger when I went outside towards the armstrong statue and near the OHE fountain. Even though the distances were different, they had the same signal. I think the reason why could be that there are more walls that get in the way for the location at the stairs. However, for the fountain and armstrong statue, they have the same amount of walls blocking the signal. 
-
-Part 2
-Answer for Question 1:
-The distance does not seem to affect the UDP at all, while the TCP seems to have a straighter graph as well as a higher throughput value. 
-
-Answer for Question 2: 
-I did not get any packet loss even at 12 meters away. However, I would think that there is a high packet loss when it is a lot farther maybe 30m away. 
-
-Answer for Question 3:
-UDP experiences more packet loss than TCP because it it does not have the sending gurantee that every message gets through. 
-
-Answer for Question 4:
-If we increase the UDP bandwith, more data would be able to get across making results more accurate. 
-
-Answer for Question 5:
-The perfroamcne would be different on 5 GHz Wifi vs 2.4 GHz since the 5 GHz wifi is able to upload and download at a quicker speed. 
-
-
 ...
